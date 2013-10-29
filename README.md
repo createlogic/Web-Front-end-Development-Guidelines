@@ -1,4 +1,3 @@
-devguides
+Front-end Development Guidelines
 =========
 
-Front-end development guides
