@@ -1,4 +1,4 @@
-[Guidelines Introduction](intro.md)
+[Guidelines Introduction](README.md)
 
 
 ##Directory Structure & Boilerplate
