@@ -17,11 +17,6 @@ If there is a requirement of mixing JavaScript with Content(Markup). It is highl
 This section is divided into the following sections:
 
 1. [HTML5](html.md)
-<!--
-2. [CSS](css.md)
-3. [JavaScript](js.md)
-4. [Validation](validation.md)
--->
 
 
 
