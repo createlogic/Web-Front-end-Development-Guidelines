@@ -2,17 +2,21 @@
 
 Coding Standards & Guidelines
 =========
-The section would drill deep into best practices on `HTML`, `CSS` & `JavaScript` separately. It would also cover code linting and validating HTML, CSS & JavaScript using [Grunt Task Runner](http://gruntjs.com/). There is an easy to follow [guide](http://gruntjs.com/getting-started) to install Grunt & associated contributed modules using Node.js package manager. 
+The section would drill deep into best practices & standards on `HTML`, `CSS` & `JavaScript` separately. It would also cover code linting and validating HTML, CSS & JavaScript using [Grunt Task Runner](http://gruntjs.com/). There is an easy to follow [guide](http://gruntjs.com/getting-started) to install Grunt & associated contributed modules using [NodeJS](http://nodejs.org/) package manager. 
 
 
-#Separation of Concerns 
-Separation of Content (Markup), Presentation (CSS) & Behavior (JavaScript) should be imposed there should not be any overlapping of any of the three technologies at any point of time into each other’s layer.
+##Separation of Concerns 
 
-So no CSS code should be mixed in HTML neither any JavaScript code should be written inside HTML layer. Each should sit in its own layer with loosely coupled selector based linking.
+SoC(Separation of Concerns) is a software design principle for separating different concerns of the program into different layers in a loosely coupled manner so that changes made to one layer do not directly inflict other layers.
 
-**Using templating engine**
-If there is a requirement of mixing JavaScript with Content(Markup). It is highly advisable and recommended to using semantic templating using [Handlebars](http://handlebarsjs.com/) or 
-[Mustache](http://mustache.github.io/).
+In front-end the classic concerns are Content(HTML), Presentation(CSS) & Behavior(JavaScript) which should be divided into three top level layers where each layer addressing single concern and there should not be any overlapping between them.
+
+###Guidelines
+
+- There should not be any CSS inlined into the element or document.
+- Fixed layout changes should be addressed by using different classes. For example there should be a class `.show` to show an element and `.hide` to hide an element, where as JavaScript should only be used to toggle between the classes.
+- HTML should not be mixed in the JavaScript layer or vice versa.
+- **templating engine** if there is a requirement of mixing JavaScript with Content(Markup). It is highly advisable and recommended to using semantic templating using [Handlebars](http://handlebarsjs.com/) or [Mustache](http://mustache.github.io/).
 
 This section is divided into the following sections:
 

@@ -2,7 +2,9 @@
 
 # Front-end Development Guidelines
 
-This document contains guidelines & standards for building front-end for web applications. These also serve as to follow guidelines for any development partners or vendors. These will also cover testing procedures that should be taken to validate the technologies in the likes of HTML, CSS, JavaScript.
+These guidelines provide and iterative process taken for most of my front-end developments. It is available to for anyone to follow or check what kind of best practices or standards are available when considering front-end builds.
+
+These would also cover code linting & validation across HTML(markup), CSS(presentation), JavaScript(behavior).
 
 
 ## Table of contents
