@@ -2,7 +2,9 @@
 
 Coding Standards & Guidelines
 =========
-The section would drill deep into best practices & standards on `HTML`, `CSS` & `JavaScript` separately. It would also cover code linting and validating HTML, CSS & JavaScript using [Grunt Task Runner](http://gruntjs.com/). There is an easy to follow [guide](http://gruntjs.com/getting-started) to install Grunt & associated contributed modules using [NodeJS](http://nodejs.org/) package manager. 
+The section would set a standard starting point for best practices & standards on `HTML`, `CSS` & `JavaScript` separately. It would also cover how to use [Grunt Task Runner](http://gruntjs.com/) for code linting, validating, compressing and other automation tasks for repetitive operations for packaging HTML, CSS & JavaScript . 
+
+There is an easy to follow [guide](http://gruntjs.com/getting-started) to install Grunt & associated contributed modules using [NodeJS](http://nodejs.org/) package manager. 
 
 
 ##Separation of Concerns 

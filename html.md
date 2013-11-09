@@ -13,7 +13,7 @@ Markup would be validated as per the validation section for mostly well-formed c
 Page should be readable without CSS & content hierarchy should be maintained.
 
 ###Boilerplate
-A toned down version of HTML5 Boilerplate is provided [here](#) which fits our requirements. The repository would be maintained and any issues or pull requests would be added if are genuine and add value to the project.
+A toned down version of HTML5 Boilerplate would be provided [here-still under review](#) which fits our requirements. The repository would be maintained and any issues or pull requests would be added if are genuine and add value to the project.
 
 ###Guidelines
 
@@ -48,7 +48,7 @@ HTML5 semantic elements like `<nav>, <figure> & <figcaption>, <header>, <footer>
 `<blockquote>, <q>, <cite>, <abbr>, <dfn>, <code>, <samp>, <kbd>, <var>, <ins>, <del>, <address>, <pre>, <br>, <sup>, <sub>`
 
 ####Schema
-Use [schema.org](http://schema.org) to add rich snippets to the markup which are recognized by major search providers. These schemas add meaningful description to the associated elements.
+Use [schema.org](http://schema.org) to add rich snippets to the markup which are recognized by major search providers. These schemas add meaningful description to the associated elements & does makes a lot of difference when getting enlisted in SERPs(Search Engine Results Pages).
 
 ####Comments
 - All containers providing document structure must have an open and close comment indicated where a container has started and where it is ending
