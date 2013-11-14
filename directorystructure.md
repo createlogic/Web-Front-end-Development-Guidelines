@@ -1,21 +1,22 @@
 [Guidelines Introduction](README.md)
 
 
-##Directory Structure & Boilerplate
-This directory structure is a port from HTML5Boilerplate. There will be 3 folders at the root of each project:
+Directory Structure & Boilerplate
+=========
+This directory structure is a port from [HTML5Boilerplate](http://html5boilerplate.com/) project with some customisations as per personal preferences. There will be 3 folders at the root of each project:
 
     ├── source
-    ├── documentation
-    └── build
+    ├── build
+    └── documentation
     
-###source
+##source
 This directory will contain the actual source with all the actual files without any compression or concatenation.
 
 
 **Directory Structure** General overview of the directory structure for `source` directory is as follows:
     
     ├── css
-    |	├── reset.css
+    |	├── reset_normalize.css
     |	├── base.css
     |	├── main.css
     |	└── media.css
@@ -64,11 +65,12 @@ This directory would consist of a basic structure for JavaScript.
 
 [The JavaScript](js.md) section would provide more in depth knowledge on required coding practices to follow and other rules for validation.  
 
-###documentation
-This directory would contain necessary documentation to support templates structure, code style & various other aspects.
-
-###build
+##build
 This directory would contain the production version of the source using a build process using Grunt. All the plugins contributing to the build would also be provided with the package for an easy source update and build process. 
+
+##documentation
+This directory would contain necessary documentation to support templates structure, code style & various other aspects of the project.
+
 
 
 
