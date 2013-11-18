@@ -9,7 +9,7 @@ These would also cover code linting & validation across HTML(markup), CSS(presen
 
 ## Table of contents
 
-* [Boilerplate & Directory Structure](directorystructure.md) — Overview of the provided boilerplate and directory structure to follow.
+* [Boilerplate Documentation](https://github.com/createlogic/html-boilerplate/blob/master/doc/intro.md) — Overview of the provided boilerplate and directory structure to follow.
 * [Coding Standards](coding.md) — This section would in depth cover various best practices to follow while coding [HTML](html.md) (mark-up), [CSS](css.md) (presentation) & [JavaScript](js.md) (behavior).
 
 
