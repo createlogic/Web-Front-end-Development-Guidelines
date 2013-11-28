@@ -1,4 +1,5 @@
-[Guidelines Introduction](README.md) | [Coding Standards & Guidelines](coding.md) | [CSS](css.md)
+[Guidelines Introduction](README.md) | [Coding Standards & Guidelines](coding.md)
+
 
 Scalable CSS Guidelines:
 =========
