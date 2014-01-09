@@ -9,9 +9,9 @@ As a part of boilerplate a [Single Object Namespace Template](https://github.com
 
 ##Code Guidelines
 
-- 99% of code should be housed in external JavaScript files being included at the end of JavaScript
+- 99% of code should be housed in external JavaScript files being included at the end of HTML document right before the `</body>`.
 - Don’t rely on user-agent string. Do proper feature detection using [MODERNIZR](http://modernizr.com/) also provided [here](https://github.com/createlogic/html-boilerplate/blob/master/js/vendor/modernizr-2.6.2.min.js) as a part of provided boilerplate but it is always better to take the latest version from the actual repository.
-- Variables and functions should be named logically using camel casing like `var hCarousel;`, `var popUpWindow;`, `var handleTopNavigation;`.
+- Variables and functions should be named logically using camel casing like `var horizontalCarousel;`, `var popUpWindow;`, `var handleTopNavigation;`.
 - All Boolean variable should be prepended with is e.g. `var isValidObject;`
 - Documentation should follow [NaturalDocs](http://www.naturaldocs.org/) structure
 - Code should be organized in one global singleton object e.g. `Namespace = {} || Namespace;`
@@ -29,7 +29,7 @@ For example:
 For example: If we have a `carousel()` function to be implemented on a `<div id="hero">...</div>` we need to initialize it in the following way in the `init()` method
 
     Namespace = {
-					init():function(){
+					init:function(){
 							this.carousel("#hero"); //passing element as parameter	
 					}
 	};
